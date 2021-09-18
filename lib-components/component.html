@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- CSS styling way 1-->
+    <!-- <style>
+        body {
+            color: green;
+        }
+    </style> -->
+    <!--CSS styling way 3-->
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Shariq Shaikh's Component Library</h1>
+    <!-- <h1 style="color: red">Shariq Shaikh's Component Library</h1>  CSS styling way 2 -->
+    <p>I am making a library which will help me make my projects look good and consistent.</p>
+    
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second heading</h2>
+    <p>Let me show you normal text. This is a free flowing and will wrap at the end like a paragraph</p>
+    <p>This paragraph will have <strong>bold</strong> text</p>
+    <small>This is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div>This is a fluid container. It will go till the end of the page.</div>
+    
+    <h3>center container</h3>
+    <div class="container container-center">This is centered container. It will go till the width specified</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class=" link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>Unordered List</h3>
+
+    <ul class="list-without-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered Inline List</h3>
+    <ul class="list-without-bullet">
+        <li class="list-inline">Item One</li>
+        <li class="list-inline">Item Two</li>
+        <li class="list-inline">Item Three</li>
+    </ul>
+
+    <h3>Reversed Ordered List</h3>
+    <ol reversed>
+        <li>Milk</li>
+        <li>Water</li>
+        <li>Oil</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="nav-navigation">
+    <div class="nav-brand">MyBrand</div>
+        <ul class="list-without-bullet nav-left">
+            <li class="list-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">About</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="header-image" src="images/header-image.svg">
+        <h2 class="header-heading">Web Development by Shariq</h2>
+    </header>
+
+    <hr>
+
+    <h1>@section</h1>
+    <section class="section">
+        <div class="container container-center">
+        <h1>white section</h1>
+        <p> Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+    </div>
+    </section>
+    <section class="section para">
+        <div class="container container-center">
+        <h1>off white section</h1>
+        <p>Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+    </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer. Do not use hr tag in footer</div>
+        <ul class="list-without-bullet">
+            <li class="list-inline">
+                <a class="link" href="/">social one</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">social two</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/">social three</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
